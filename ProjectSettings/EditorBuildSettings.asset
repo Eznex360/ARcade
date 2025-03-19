@@ -6,24 +6,41 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/menu.unity
-    guid: 34ff5937c926348f08e5f756fee158fe
+    path: Assets/Scenes/intro.unity
+    guid: 80e5b1804984a4ff5b5d611d4eca664c
   - enabled: 1
-    path: Assets/Scenes/Tap and shoot/menu_app1.unity
-    guid: 13dce92f6b199481dbb459b94374018c
+    path: Assets/Scenes/all_menu.unity
+    guid: 2f352b13a8afe404d97e8638e904c797
   - enabled: 1
-    path: Assets/Scenes/Tap and shoot/Gameplay1.unity
-    guid: 3d72544c993a54f258d3abb0da9d1ff7
+    path: Assets/Scenes/loading.unity
+    guid: 4ec32ca7407df4bc9ac83d0888312e0e
+  - enabled: 1
+    path: Assets/Scenes/Tap and shoot/menu_game1.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Tap and shoot/GamePlay.unity
+    guid: e9f45a89badf844ee93fc117c4b9ad4a
+  - enabled: 1
+    path: Assets/Scenes/Tap and shoot/Win.unity
+    guid: ee671294537e2451a9743b02002403f9
+  - enabled: 1
+    path: Assets/Scenes/Tap and shoot/Lose.unity
+    guid: ce4b5a336a0aa421dacf6a5638e5cec3
+  - enabled: 1
+    path: Assets/Scenes/Tap and shoot/Secret.unity
+    guid: 04b1816157a25417b8541317634755e4
+  - enabled: 1
+    path: Assets/Scenes/Tap and shoot/normal.unity
+    guid: 5a7e30c5249ab490c86b6f3df2ec354c
+  - enabled: 1
+    path: Assets/Scenes/Tap and shoot/hard.unity
+    guid: 7530240fc481946778dae306cb8ccaa9
+  - enabled: 1
+    path: Assets/Scenes/Tap and shoot/easy.unity
+    guid: 72d0a63b01f1f47dbb0fb74624484b7c
   m_configObjects:
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
-      type: 2}
-    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0465d33c6aee55f44b0237db8b0e0259,
-      type: 2}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: c199e683398494f32b4cde18e73ab731,
-      type: 2}
-    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 0b53a025a635a4393ba0b49822242280,
-      type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3fd4fc0127790db4bae83f7b77da8d45,
-      type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: b07c4ba7650be4c25b3d0c497e7e2bb8,
-      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 66413b9648630486ebf3d91163061909, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 3a37ff00342e2473693ea23f3857bb88, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 642fdf92eaa5741f5a34f688e6c600a6, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 67c33a4448dbc49dd8f4d12005a21ccc, type: 2}
+  m_UseUCBPForAssetBundles: 0

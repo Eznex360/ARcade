@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/raphaelnabet/Documents/UQAC_Dev/ARcade/.utmp/Debug/59342h1h/arm64-v8a",
+  "command": "/Applications/Unity/Hub/Editor/6000.0.42f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --sysroot=/Applications/Unity/Hub/Editor/6000.0.42f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DEXTERNAL_FRAME_PACING_CODE -Dswappywrapper_EXPORTS -I/Users/raphaelnabet/Documents/UQAC_Dev/ARcade/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/FramePacing -isystem /Users/raphaelnabet/.gradle/caches/transforms-3/268849a49ea9eb2bba6f4e0ac95bfd63/transformed/jetified-games-frame-pacing-1.10.0/prefab/modules/swappy_static/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D__BIONIC_NO_PAGE_SIZE_MACRO -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -Wall -Wextra -pedantic -Werror -fno-limit-debug-info  -fPIC -o FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o -c /Users/raphaelnabet/Documents/UQAC_Dev/ARcade/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/FramePacing/UnitySwappyWrapper.cpp",
+  "file": "/Users/raphaelnabet/Documents/UQAC_Dev/ARcade/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/FramePacing/UnitySwappyWrapper.cpp"
+}
+]
