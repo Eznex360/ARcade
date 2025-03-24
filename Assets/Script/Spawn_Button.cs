@@ -44,8 +44,7 @@ public class Spawn_Button : MonoBehaviour
     }
     IEnumerator WaitForResolution()
     {
-        for (int i = 0; i < 10; i++)
-            yield return new WaitForEndOfFrame();
+        yield return new WaitForEndOfFrame();
         update_value();
         spawbutton(game1,0);
         spawbutton(game2,1);

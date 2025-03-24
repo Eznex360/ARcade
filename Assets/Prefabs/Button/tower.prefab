@@ -134,4 +134,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonScene: {fileID: 5432122550064791936}
-  SceneName: menu_game1
+  SceneName: menu_game2

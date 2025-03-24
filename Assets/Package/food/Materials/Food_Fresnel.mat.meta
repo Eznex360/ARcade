@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dd4330fb196ead84ea9d14e6bbbe8ed5
+timeCreated: 1489881085
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85884
+  packageName: FREE Food Pack
+  packageVersion: 1.0
+  assetPath: Assets/FREE Food Pack/Materials/Food_Fresnel.mat
+  uploadId: 175081

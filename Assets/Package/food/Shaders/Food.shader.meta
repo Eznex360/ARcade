@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 457b78bdb98aa83488f603f5d4907484
+timeCreated: 1489884812
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85884
+  packageName: FREE Food Pack
+  packageVersion: 1.0
+  assetPath: Assets/FREE Food Pack/Shaders/Food.shader
+  uploadId: 175081

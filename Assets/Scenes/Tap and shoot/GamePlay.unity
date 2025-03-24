@@ -1390,7 +1390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6886761909500846903, guid: 1df9c7e0b79954600a949acae8b6bd3b, type: 3}
       propertyPath: shotPower
-      value: 1500
+      value: 3000
       objectReference: {fileID: 0}
     - target: {fileID: 6886761909500846903, guid: 1df9c7e0b79954600a949acae8b6bd3b, type: 3}
       propertyPath: shotsound

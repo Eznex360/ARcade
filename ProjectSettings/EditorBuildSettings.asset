@@ -38,6 +38,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tap and shoot/easy.unity
     guid: 72d0a63b01f1f47dbb0fb74624484b7c
+  - enabled: 1
+    path: Assets/Scenes/ScARf/menu_game2.unity
+    guid: b2a70bb534f4d4530ae2a224fca9a95a
+  - enabled: 1
+    path: Assets/Scenes/ScARf/GamePlay_Tower.unity
+    guid: b84a9ff4ef744419e9bb02e2fa7bb286
+  - enabled: 1
+    path: Assets/Scenes/ScARf/end_2.unity
+    guid: 218bffc3c7bf645aa946e850a95d388c
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 66413b9648630486ebf3d91163061909, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 3a37ff00342e2473693ea23f3857bb88, type: 2}

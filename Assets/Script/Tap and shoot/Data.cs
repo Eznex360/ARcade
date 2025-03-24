@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -15,24 +14,33 @@ public class Data : MonoBehaviour
 
     private void Start()
     {
-        elapsedTimeInSeconds = 0.0f;
-    } 
-    private void Update()
+        StartCoroutine(WaitForARCamera());
+    }
+
+    IEnumerator WaitForARCamera()
     {
-        if (elapsedTimeInSeconds < totalTimeInSeconds)
+        while (Camera.main == null || !Camera.main.enabled)
+        {
+            yield return null;
+        }
+        elapsedTimeInSeconds = 0.0f;
+        StartCoroutine(StartTimer());
+    }
+
+    IEnumerator StartTimer()
+    {
+        while (elapsedTimeInSeconds < totalTimeInSeconds)
         {
             elapsedTimeInSeconds += Time.deltaTime;
             UpdateTimerUI();
+            yield return null;
         }
-        else
-        {
-            if (easy.difficulty)
-                load_difficulty(15);
-            if (normal.difficulty)
-                load_difficulty(25);
-            if (hard.difficulty)
-                load_difficulty(40);
-        } 
+        if (easy.difficulty)
+            load_difficulty(15);
+        if (normal.difficulty)
+            load_difficulty(25);
+        if (hard.difficulty)
+            load_difficulty(40);
     }
 
     private void load_difficulty(int x)
@@ -45,6 +53,7 @@ public class Data : MonoBehaviour
         if (PNJController.count < x)
             win = false;
     }
+
     private void UpdateTimerUI()
     { 
         float timeRemainingInSeconds = totalTimeInSeconds - elapsedTimeInSeconds;
